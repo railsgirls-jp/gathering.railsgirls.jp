@@ -83,7 +83,9 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+      Rails Girls <br />
+      Gathering <br />
+      Japan 2022
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
