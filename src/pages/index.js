@@ -88,7 +88,7 @@ const IndexPage = () => (
       Japan 2022
       </h1>
       <p className={styles.intro}>
-        <b>2022/12/03 (Fri)</b>
+        <b>2022/12/03 (Fri) Online</b>{" "}
       </p>
     </div>
   </Layout>
