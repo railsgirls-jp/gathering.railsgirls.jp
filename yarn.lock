@@ -1073,6 +1073,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/ultra@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/ultra/-/ultra-4.5.6.tgz#4fbfde05b39b102ffb1b020c91910a606f56b7e3"
+  integrity sha512-JSZPqOJXVAcLs4PqM5tv4D/0uulFQcq3WUOzHixZ6GWzOiFtD1AnqFao20CtXGgOvh6khtjz1GaxGmg1JJ8E0w==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-1.7.0.tgz#ddc6cbe8f703a2ca5bf42ca19b603044e094d266"

@@ -88,8 +88,9 @@ const IndexPage = () => (
       Japan 2022
       </h1>
       <p className={styles.intro}>
-        <b>2022/12/03 (Fri) Online</b>{" "}
+        <b>2022/12/03 (金) オンライン開催予定</b>{" "}
       </p>
+      <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
     </div>
   </Layout>
 )
