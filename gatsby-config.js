@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Rails Girls Gathering Japan 2022`,
+    description: `Rails Girls Gathering Japan 2022 のウェブサイトです`,
+    image: "../images/ogimage.png",
+    author: `Rails Girls Gathering Japan TEAM`,
+    siteUrl: `https://gathering.railsgirls.jp/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -27,8 +28,9 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
+      plugins: [`gatsby-plugin-react-helmet`]
     },
   ],
 }
