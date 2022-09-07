@@ -14,12 +14,12 @@ const IndexPage = () => (
       <meta property="og:url" content="https://gathering.railsgirls.jp/" data-react-helmet="true" />
       <meta property="og:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
       <meta property="og:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
-      <meta property="og:image" content="https://deploy-preview-1--gleeful-sprite-061ad0.netlify.app/images/ogimage.png" data-react-helmet="true" />
+      <meta property="og:image" content="https://gathering.railsgirls.jp/images/ogimage.png" data-react-helmet="true" />
       <meta name="twitter:card" content="summary_large_image" data-react-helmet="true" />
       <meta name="twitter:creator" content="railsgirlsjapan" data-react-helmet="true" />
       <meta name="twitter:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
       <meta name="twitter:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
-      <meta name="twitter:image" content="https://deploy-preview-1--gleeful-sprite-061ad0.netlify.app/images/ogimage.png" data-react-helmet="true" />
+      <meta name="twitter:image" content="https://gathering.railsgirls.jp/images/ogimage.png" data-react-helmet="true" />
     </Helmet>
     <div className={styles.textCenter}>
       <StaticImage
@@ -34,7 +34,7 @@ const IndexPage = () => (
       <h1>
       Rails Girls <br />
       Gathering <br />
-      Japan 2022!!!
+      Japan 2022
       </h1>
       <p className={styles.intro}>
         <b>2022/12/03 (Sat) Online</b>{" "}
