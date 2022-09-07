@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import { Helmet } from "react-helmet"
+import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 import { graphql } from "gatsby"
 const IndexPage = () => (
   <Layout>
