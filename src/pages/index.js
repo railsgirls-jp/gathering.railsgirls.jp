@@ -11,8 +11,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Rails Girls Gathering Japan 2022" />
     <Helmet>
-      <head prefix="og: http://ogp.me/ns#" />
-      <meta property="og:url" content="https://deploy-preview-1--gleeful-sprite-061ad0.netlify.app" data-react-helmet="true" />
+      <meta property="og:url" content="https://gathering.railsgirls.jp/" data-react-helmet="true" />
       <meta property="og:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
       <meta property="og:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
       <meta property="og:image" content="https://deploy-preview-1--gleeful-sprite-061ad0.netlify.app/images/ogimage.png" data-react-helmet="true" />
@@ -35,7 +34,7 @@ const IndexPage = () => (
       <h1>
       Rails Girls <br />
       Gathering <br />
-      Japan 2022
+      Japan 2022!!!
       </h1>
       <p className={styles.intro}>
         <b>2022/12/03 (Sat) Online</b>{" "}
