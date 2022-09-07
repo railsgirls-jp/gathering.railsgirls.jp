@@ -11,6 +11,15 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Rails Girls Gathering Japan 2022" />
     <Helmet>
+      <meta property="og:url" content="https://gathering.railsgirls.jp/" data-react-helmet="true" />
+      <meta property="og:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
+      <meta property="og:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
+      <meta property="og:image" content="../images/ogimage.png" data-react-helmet="true" />
+      <meta name="twitter:card" content="summary_large_image" data-react-helmet="true" />
+      <meta name="twitter:creator" content="railsgirlsjapan" data-react-helmet="true" />
+      <meta name="twitter:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
+      <meta name="twitter:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
+      <meta name="twitter:image" content="../images/ogimage.png" data-react-helmet="true" />
     </Helmet>
     <div className={styles.textCenter}>
       <StaticImage
@@ -28,7 +37,7 @@ const IndexPage = () => (
       Japan 2022
       </h1>
       <p className={styles.intro}>
-        <b>2022/12/03 (Sat) Online  </b>{" "}
+        <b>2022/12/03 (Sat) Online</b>{" "}
       </p>
       <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
     </div>
