@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Seo title="Rails Girls Gathering Japan 2022" />
     <Helmet>
       <head prefix="og: http://ogp.me/ns#" />
-      <meta property="og:url" content="https://gathering.railsgirls.jp/" data-react-helmet="true" />
+      <meta property="og:url" content="https://deploy-preview-1--gleeful-sprite-061ad0.netlify.app" data-react-helmet="true" />
       <meta property="og:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
       <meta property="og:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
       <meta property="og:image" content="https://deploy-preview-1--gleeful-sprite-061ad0.netlify.app/images/ogimage.png" data-react-helmet="true" />
