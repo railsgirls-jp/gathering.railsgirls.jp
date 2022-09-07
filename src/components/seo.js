@@ -18,6 +18,7 @@ function Seo({ description, title, children }) {
           siteMetadata {
             title
             description
+            image
             author
           }
         }
@@ -34,6 +35,7 @@ function Seo({ description, title, children }) {
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
+      <meta property="og:image" content={`${process.env.GATSBY_BASE_URL}/src/images/ogimage.png`} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="large" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
