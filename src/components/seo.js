@@ -32,10 +32,11 @@ function Seo({ description, title, children }) {
   return (
     <>
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
+      <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
-      <meta property="og:image" content={`${process.env.GATSBY_BASE_URL}/src/images/ogimage.png`} />
+      <meta property="og:image" content="http://gathering.railsgirls.jp/src/images/ogimage.png" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="large" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
