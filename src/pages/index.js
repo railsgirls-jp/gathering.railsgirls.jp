@@ -19,7 +19,7 @@ const IndexPage = () => (
       <meta name="twitter:creator" content="railsgirlsjapan" data-react-helmet="true" />
       <meta name="twitter:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
       <meta name="twitter:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
-      <meta name="twitter:image" content="../images/ogimage.png" data-react-helmet="true" />
+      <meta name="twitter:image" content="https://deploy-preview-1--gleeful-sprite-061ad0.netlify.app/images/ogimage.png" data-react-helmet="true" />
     </Helmet>
     <div className={styles.textCenter}>
       <StaticImage
