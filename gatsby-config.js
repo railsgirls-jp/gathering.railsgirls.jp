@@ -32,17 +32,7 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
       plugins: [`gatsby-plugin-react-helmet`],
-      plugins: ['gatsby-plugin-breakpoints'],
-<<<<<<< HEAD
-=======
-      {
-        resolve: 'gatsby-plugin-robots-txt',
-        options: {
-          host: 'https://gathering.railsgirls.jp',
-          sitemap: 'https://gathering.railsgirls.jp/sitemap.xml',
-          policy: [{userAgent: '*', allow: '/'
-      },
->>>>>>> da3fa06cbf3995f5c2a67b274b827263f4ba93e2
+      plugins: ['gatsby-plugin-breakpoints']
     },
   ],
 }
