@@ -19,7 +19,7 @@ const IndexPage = () => (
         loading="eager"
         width={280}
         quality={95}
-        formats={["auto", "webp", "avif"]}
+        formats={["auto", "svg","webp", "avif",]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
