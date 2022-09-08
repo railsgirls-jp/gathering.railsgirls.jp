@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: `https://gathering.railsgirls.jp/`,
   },
   plugins: [
+    'gatsby-plugin-robots-txt',
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -31,7 +32,7 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
       plugins: [`gatsby-plugin-react-helmet`],
-      plugins: ['gatsby-plugin-breakpoints']
+      plugins: ['gatsby-plugin-breakpoints'],
     },
   ],
 }
