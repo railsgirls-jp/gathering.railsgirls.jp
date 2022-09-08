@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: `https://gathering.railsgirls.jp/`,
   },
   plugins: [
+    'gatsby-plugin-robots-txt',
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
