@@ -6,21 +6,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import { Helmet } from "react-helmet"
-import { useBreakpoint } from 'gatsby-plugin-breakpoints';
+import { useBreakpoint } from 'gatsby-plugin-breakpoints'
 import { graphql } from "gatsby"
 const IndexPage = () => (
   <Layout>
     <Seo title="Rails Girls Gathering Japan 2022" />
     <Helmet>
-      <meta property="og:url" content="https://gathering.railsgirls.jp/" data-react-helmet="true" />
-      <meta property="og:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
-      <meta property="og:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
-      <meta property="og:image" content="https://gathering.railsgirls.jp/images/ogimage.png" data-react-helmet="true" />
-      <meta name="twitter:card" content="summary_large_image" data-react-helmet="true" />
-      <meta name="twitter:creator" content="railsgirlsjapan" data-react-helmet="true" />
-      <meta name="twitter:title" content="Rails Girls Gathering Japan 2022" data-react-helmet="true" />
-      <meta name="twitter:description" content="12/3 オンラインにて Rails Girls Gathering Japan 2022 を開催します！" data-react-helmet="true" />
-      <meta name="twitter:image" content="https://gathering.railsgirls.jp/images/ogimage.png" data-react-helmet="true" />
     </Helmet>
     <div className={styles.textCenter}>
       <StaticImage

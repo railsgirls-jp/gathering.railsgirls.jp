@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Rails Girls Gathering Japan 2022`,
-    description: `Rails Girls Gathering Japan 2022 のウェブサイトです`,
-    image: "../images/ogimage.png",
-    author: `Rails Girls Gathering Japan TEAM`,
+    description: `Rails Girls Gathering Japan 2022 は 12/3 (土) オンラインにて開催予定です`,
+    image: "https://gathering.railsgirls.jp/images/ogimage.png",
+    author: `railsgirlsjapan`,
     siteUrl: `https://gathering.railsgirls.jp/`,
   },
   plugins: [
