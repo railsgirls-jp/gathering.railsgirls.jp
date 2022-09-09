@@ -9,7 +9,6 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
-import ogimage from "`${process.env.GATSBY_SITEURL}`/images/ogimage.png"
 
 function Seo({ description, title, children }) {
   const { site } = useStaticQuery(
@@ -21,6 +20,7 @@ function Seo({ description, title, children }) {
             description
             image
             author
+            siteUrl
           }
         }
       }
@@ -29,7 +29,7 @@ function Seo({ description, title, children }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  const image = site.siteMetadata?.image
+  const image = site.siteMetadata?.siteUrl.image
 
   return (
     <>
@@ -37,13 +37,13 @@ function Seo({ description, title, children }) {
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
-      <meta property="og:image" content={ogimage} />
+      <meta property="og:image" content={image} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
-      <meta name="twitter:image" content={ogimage} />
+      <meta name="twitter:image" content={image} />
       {children}
     </>
   )
