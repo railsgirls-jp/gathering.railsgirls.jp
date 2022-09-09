@@ -1080,6 +1080,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/michroma@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/michroma/-/michroma-4.5.9.tgz#f97d0180ae30bb55582b7ec142f32ccf0a753017"
+  integrity sha512-Alh6W/WZ8jRZue4zVpvRdAp/7ohyDD6DtZYIjjmTu+5lnfmSYQOXKIuU70XHHATsELkWgfPDTKPXZe7hEk8tNQ==
+
 "@fontsource/ultra@^4.5.6":
   version "4.5.6"
   resolved "https://registry.npmjs.org/@fontsource/ultra/-/ultra-4.5.6.tgz"

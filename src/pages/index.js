@@ -19,7 +19,7 @@ const IndexPage = () => (
         loading="eager"
         width={280}
         quality={95}
-        formats={["auto", "webp", "avif"]}
+        formats={["auto", "svg","webp", "avif",]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
@@ -29,7 +29,8 @@ const IndexPage = () => (
       Japan 2022
       </h1>
       <p className={styles.intro}>
-        <b>2022/12/03 (Sat) Online</b>{" "}
+        <b>2022/12/03 (Sat) <br/>
+        Online</b>{" "}
       </p>
       <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
     </div>
