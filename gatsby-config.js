@@ -3,7 +3,7 @@ module.exports = {
     title: `Rails Girls Gathering Japan 2022`,
     description: `Rails Girls Gathering Japan 2022 は 12/3 (土) オンラインにて開催予定です`,
     author: `railsgirlsjapan`,
-    image: "https://gathering.railsgirls.jp/images/ogimage.png",
+    image: "https://gathering.railsgirls.jp/static/ogimage-000a76464bd6d27200f100fa07a1b64d.png",
     siteUrl: `https://gathering.railsgirls.jp/`,
   },
   plugins: [
