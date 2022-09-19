@@ -5081,15 +5081,6 @@
   dependencies:
     "@babel/runtime" "^7.17.8"
 
-"gatsby-plugin-google-analytics@^4.22.0":
-  "integrity" "sha512-wew6ghi4zdamHNoVYHyTAmCGzBJ/RKUa77GIoUjOlv7WvUnfT/FWAaI3fAoDUhUiHpn0EQTcZ1zwgj92jd43NA=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.22.0.tgz"
-  "version" "4.22.0"
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    "minimatch" "3.0.4"
-    "web-vitals" "^1.1.2"
-
 "gatsby-plugin-image@^2.21.0":
   "integrity" "sha512-39XbPtUv/rtB/PffkTiEYjGGAFkqivWHGLil1aqiDo42RhPhhgHQ5Y2mn9B3ZiK86foUhSjQMRX6XSgTw2CGDA=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.22.0.tgz"
