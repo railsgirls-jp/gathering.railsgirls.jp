@@ -31,6 +31,13 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+      trackingIds: ['G-PBJQEKD5GJ'],
+      pluginConfig: {
+      head: true,
+        },
+      },
       plugins: [`gatsby-plugin-react-helmet`],
       plugins: ['gatsby-plugin-breakpoints']
     },
