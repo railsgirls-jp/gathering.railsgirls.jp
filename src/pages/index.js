@@ -26,8 +26,8 @@ const IndexPage = () => (
       <div className={styles.textCenter}>
         <div className={styles.title}>
           <h1>
-          Rails Girls <br />
-          Gathering <br />
+          Rails Girls<br />
+          Gathering<br />
           Japan 2022
           </h1>
         </div>
@@ -46,8 +46,7 @@ const IndexPage = () => (
   Keynote
   </h2>
   <ul className={styles.intro}>
-    <li className={styles.intro}>Linda Liukas</li>
-    <li className={styles.intro}>Yoko Harada</li>
+    <li className={styles.intro}>Coming Soon</li>
   </ul>
 </div>
 <div className={styles.textCenter}>
@@ -55,13 +54,25 @@ const IndexPage = () => (
   Special
   </h2>
   <p className={styles.intro}>
-    Coming Soon
   </p>
   <p className={styles.specialDesc}>
-  2022年はRails Girls Japan設立10周年の年！<br />
-  お祝いのメッセージを募集しています。<br />
-  #rgj10th（仮）をつけてTweetしてくださいね！<br />
+  2022年は日本で最初のRails Girlsイベントが開催されて10周年！<br />
+  10周年を記念してメッセージを募集しています。<br />
+  Rails Girlsの思い出・意気込み（野望）・期待など<br />
+  #rgjp10thをつけてTweetしてくださいね！<br />
   </p>
+  <p className={styles.specialDesc}>
+  <a href="https://twitter.com/intent/tweet?button_hashtag=rgjp10th&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #rgjp10th</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </p>
+</div>
+<div className={styles.textCenter}>
+  <h2>
+  Team
+  </h2>
+  <ul className={styles.intro}>
+    <li className={styles.intro}></li>
+    <li className={styles.intro}>Yoko Harada</li>
+  </ul>
 </div>
   </div>
   </Layout>
