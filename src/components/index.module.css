@@ -48,7 +48,28 @@
   text-align: center;
 }
 
+.date {
+  margin-bottom: 3rem;
+}
+
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
+  font-family: michroma;
+  font-size: var(--font-lg);
+}
+
+.specialDesc {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 720px){
+  .intro {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .intro li {
+    margin-bottom: 1rem;
+  }
+
 }
