@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import { Helmet } from "react-helmet"
-import { useBreakpoint } from 'gatsby-plugin-breakpoints'
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import { graphql } from "gatsby"
 const IndexPage = () => (
   <Layout>
@@ -28,13 +28,63 @@ const IndexPage = () => (
       Gathering <br />
       Japan 2022
       </h1>
-      <p className={styles.intro}>
-        <b>2022/12/03 (Sat) <br/>
-        Online</b>{" "}
-      </p>
+      <div className={styles.date}>
+        <p className={styles.intro}>
+          <b>2022/12/03 (Sat) <br/>
+          Online</b>{" "}
+        </p>
       <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
     </div>
-  </Layout>
+    <div className={styles.news}>
+      <p className={styles.textCenter}>
+      <b>LT発表者を募集中です！</b>
+      </p>
+      <Link to="https://docs.google.com/forms/d/1pppBu6sk49_YGL5PedWvphcfxANiJ2QyiLqsJXSdvuk/edit" target="_blank" className={styles.primaryButtonLarge}>
+      応募する</Link>
+    </div>
+    </div>
+    <div className={styles.textCenter}>
+  <h2>
+  Keynote
+  </h2>
+  <ul className={styles.intro}>
+    <li className={styles.intro}>Coming Soon</li>
+  </ul>
+</div>
+<div className={styles.textCenter}>
+  <h2>
+  Special
+  </h2>
+  <p className={styles.intro}>
+  </p>
+  <p className={styles.specialDesc}>
+  2022年は日本で最初のRails Girlsイベントが開催されて10周年！<br />
+  10周年を記念してメッセージを募集しています。<br />
+  Rails Girlsの思い出・意気込み（野望）・期待など、
+  <b>#rgjp10th</b>をつけてツイートしてくださいね！<br />
+  </p>
+
+  <Link to="https://twitter.com/intent/tweet?hashtags=rggj10th" target="_blank" className={styles.primaryButtonLarge}
+  data-show-count="false">
+  ツイートする</Link>
+</div>
+<div className={styles.textCenter}>
+  <h2>
+  Team
+  </h2>
+  <ul className={styles.intro}>
+    <li className={styles.intro}><Link to="https://twitter.com/emorima" target="blank">emorima</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/co_bachie" target="blank">cobachie</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/yadaita" target="blank">yadaita</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/siroemk" target="blank">siroemk</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/thatblue_plus" target="blank">thatblue</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/ai_24_ai" target="blank">ai-24</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/Saki_ht3150" target="blank">Saki</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/atttsumi" target="blank">attsumi</Link></li>
+    <li className={styles.intro}><Link to="https://railsgirls.jp/about" target="blank">Rails Girls Japan</Link></li>
+  </ul>
+</div>
+</Layout>
 )
 
 /**
