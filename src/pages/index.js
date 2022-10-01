@@ -23,30 +23,25 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <div className={styles.textCenter}>
-        <div className={styles.title}>
-          <h1>
-          Rails Girls<br />
-          Gathering<br />
-          Japan 2022
-          </h1>
-        </div>
-        <div className={styles.date}>
-          <p className={styles.intro}>
-            2022/12/03 (Sat) <br/>
-            Online{" "}
-          </p>
-        </div>
-        <div className={styles.date}>
-          <p className={styles.textCenter}>
-          <b>LT発表者を募集中です！</b>
-          </p>
-          <Link to="https://docs.google.com/forms/d/1pppBu6sk49_YGL5PedWvphcfxANiJ2QyiLqsJXSdvuk/edit" target="_blank" className={styles.primaryButtonLarge}>
-          応募する</Link>
-        </div>
-        <div className={styles.textCenter}>
-          <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
-        </div>
+      <h1>
+      Rails Girls <br />
+      Gathering <br />
+      Japan 2022
+      </h1>
+      <div className={styles.date}>
+        <p className={styles.intro}>
+          <b>2022/12/03 (Sat) <br/>
+          Online</b>{" "}
+        </p>
+      <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
+    </div>
+    <div className={styles.news}>
+      <p className={styles.textCenter}>
+      <b>LT発表者を募集中です！</b>
+      </p>
+      <Link to="https://docs.google.com/forms/d/1pppBu6sk49_YGL5PedWvphcfxANiJ2QyiLqsJXSdvuk/edit" target="_blank" className={styles.primaryButtonLarge}>
+      応募する</Link>
+    </div>
     </div>
     <div className={styles.textCenter}>
   <h2>
@@ -68,8 +63,8 @@ const IndexPage = () => (
   Rails Girlsの思い出・意気込み（野望）・期待など、
   <b>#rgjp10th</b>をつけてツイートしてくださいね！<br />
   </p>
-  <blockquote className="twitterTweet"></blockquote>
-  <Link to="https://twitter.com/intent/tweet?button_hashtag=rgjp10th&ref_src=twsrc%5Etfw" target="_blank" className={styles.primaryButtonLarge} data-size="large"
+
+  <Link to="https://twitter.com/intent/tweet?hashtags=rggj10th" target="_blank" className={styles.primaryButtonLarge}
   data-show-count="false">
   ツイートする</Link>
 </div>
@@ -89,8 +84,7 @@ const IndexPage = () => (
     <li className={styles.intro}><Link to="https://railsgirls.jp/about" target="blank">Rails Girls Japan</Link></li>
   </ul>
 </div>
-  </div>
-  </Layout>
+</Layout>
 )
 
 /**
