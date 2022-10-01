@@ -63,6 +63,28 @@
   margin-top: 2rem;
 }
 
+.primaryButtonLarge {
+  display: inline-block;
+  width: 400px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: var(--color-text);
+  line-height: 80px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.primaryButtonLarge:hover {
+  background-color: #fff;
+  border-color: #59b1eb;
+  background-color: var(--color-text);
+}
 @media screen and (max-width: 720px){
   .intro {
     font-size: 1.5rem;
@@ -71,5 +93,10 @@
   .intro li {
     margin-bottom: 1rem;
   }
-
+  .primaryButtonLarge {
+    width: calc(100% - 40px);
+  }
+  .specialDesc {
+    text-align: left;
+  }
 }
