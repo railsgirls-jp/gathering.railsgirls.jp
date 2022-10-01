@@ -74,7 +74,7 @@ const IndexPage = () => (
   </h2>
   <ul className={styles.intro}>
     <li className={styles.intro}><Link to="https://twitter.com/emorima" target="blank">emorima</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/cobachie" target="blank">cobachie</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/co_bachie" target="blank">cobachie</Link></li>
     <li className={styles.intro}><Link to="https://twitter.com/yadaita" target="blank">yadaita</Link></li>
     <li className={styles.intro}><Link to="https://twitter.com/siroemk" target="blank">siroemk</Link></li>
     <li className={styles.intro}><Link to="https://twitter.com/thatblue_plus" target="blank">thatblue</Link></li>
