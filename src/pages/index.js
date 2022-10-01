@@ -37,6 +37,13 @@ const IndexPage = () => (
             Online{" "}
           </p>
         </div>
+        <div className={styles.date}>
+          <p className={styles.textCenter}>
+          <b>LT発表者を募集中です！</b>
+          </p>
+          <Link to="https://docs.google.com/forms/d/1pppBu6sk49_YGL5PedWvphcfxANiJ2QyiLqsJXSdvuk/edit" target="_blank" className={styles.primaryButtonLarge}>
+          応募する</Link>
+        </div>
         <div className={styles.textCenter}>
           <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
         </div>
@@ -58,20 +65,28 @@ const IndexPage = () => (
   <p className={styles.specialDesc}>
   2022年は日本で最初のRails Girlsイベントが開催されて10周年！<br />
   10周年を記念してメッセージを募集しています。<br />
-  Rails Girlsの思い出・意気込み（野望）・期待など<br />
-  #rgjp10thをつけてTweetしてくださいね！<br />
+  Rails Girlsの思い出・意気込み（野望）・期待など、
+  <b>#rgjp10th</b>をつけてツイートしてくださいね！<br />
   </p>
-  <p className={styles.specialDesc}>
-  <a href="https://twitter.com/intent/tweet?button_hashtag=rgjp10th&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #rgjp10th</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </p>
+  <blockquote className="twitterTweet"></blockquote>
+  <Link to="https://twitter.com/intent/tweet?button_hashtag=rgjp10th&ref_src=twsrc%5Etfw" target="_blank" className={styles.primaryButtonLarge} data-size="large"
+  data-show-count="false">
+  ツイートする</Link>
 </div>
 <div className={styles.textCenter}>
   <h2>
   Team
   </h2>
   <ul className={styles.intro}>
-    <li className={styles.intro}></li>
-    <li className={styles.intro}>Yoko Harada</li>
+    <li className={styles.intro}><Link to="https://twitter.com/emorima" target="blank">emorima</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/cobachie" target="blank">cobachie</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/yadaita" target="blank">yadaita</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/siroemk" target="blank">siroemk</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/thatblue_plus" target="blank">thatblue</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/ai_24_ai" target="blank">ai-24</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/Saki_ht3150" target="blank">Saki</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/atttsumi" target="blank">attsumi</Link></li>
+    <li className={styles.intro}><Link to="https://railsgirls.jp/about" target="blank">Rails Girls Japan</Link></li>
   </ul>
 </div>
   </div>
