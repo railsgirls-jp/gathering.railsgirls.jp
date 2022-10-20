@@ -39,7 +39,7 @@ const IndexPage = () => (
       <p className={styles.textCenter}>
       <b>LT発表者を募集中です！</b>
       </p>
-      <Link to="https://docs.google.com/forms/d/1pppBu6sk49_YGL5PedWvphcfxANiJ2QyiLqsJXSdvuk/edit" target="_blank" className={styles.primaryButtonLarge}>
+      <Link to="https://forms.gle/iA7LNMiMfvKWEkWX6" target="_blank" className={styles.primaryButtonLarge}>
       応募する</Link>
     </div>
     </div>
