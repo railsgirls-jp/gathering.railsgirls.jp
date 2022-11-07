@@ -37,10 +37,10 @@ const IndexPage = () => (
     </div>
     <div className={styles.news}>
       <p className={styles.textCenter}>
-      <b>LT発表者を募集中です！</b>
+      <b>イベント参加申し込みを開始しました！</b>
       </p>
-      <Link to="https://forms.gle/iA7LNMiMfvKWEkWX6" target="_blank" className={styles.primaryButtonLarge}>
-      応募する</Link>
+      <Link to="https://railsgirls-japan.doorkeeper.jp/events/146236" target="_blank" className={styles.primaryButtonLarge}>
+      申し込む（無料）</Link>
     </div>
     </div>
     <div className={styles.textCenter}>
