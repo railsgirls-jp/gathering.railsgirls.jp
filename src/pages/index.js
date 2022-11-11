@@ -48,7 +48,10 @@ const IndexPage = () => (
   Keynote
   </h2>
   <ul className={styles.intro}>
-    <li className={styles.intro}>Coming Soon</li>
+  <ul className={styles.intro}>
+    <li className={styles.intro}><Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link></li>
+    <li className={styles.intro}><Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link></li>
+  </ul>
   </ul>
 </div>
 <div className={styles.textCenter}>
