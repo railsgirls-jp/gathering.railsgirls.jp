@@ -69,7 +69,11 @@ const IndexPage = () => (
 
   <Link to="https://twitter.com/intent/tweet?hashtags=rgjp10th" target="_blank" className={styles.primaryButtonLarge}
   data-show-count="false">
-  ツイートする</Link>
+  ツイートする</Link> <br />
+
+  <Link to="/10th" className={styles.primaryButtonLarge}
+        data-show-count="false">
+    特設ページを見る</Link>
 </div>
 <div className={styles.textCenter}>
   <h2>
