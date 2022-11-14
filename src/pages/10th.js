@@ -20,7 +20,6 @@ const AnivPage = () => {
       const urls = [];
       let nextIndex = currentIndex;
       Object.keys(result).forEach((key) => {
-        console.log('current key', { key });
         urls.unshift(result[key]);
         if (nextIndex === -1) {
           nextIndex = parseInt(key);
@@ -30,34 +29,28 @@ const AnivPage = () => {
       });
 
       setCurrentIndex(nextIndex);
-      console.log('current index', { currentIndex });
       if (nextIndex === 0) {
         setHasMoreTweets(false);
       }
 
-      console.log('tweet urls', { urls });
       const appendURLs = tweetURLs.concat(urls);
       setURLs(appendURLs);
     });
   }, []);
 
   useEffect(() => {
-    console.log('reloaded twitter widget script');
     const script = document.createElement('script');
     script.src = "https://platform.twitter.com/widgets.js";
     document.body.appendChild(script);
 
     return () => {
-      console.log('removed twitter widget script');
       document.body.removeChild(script);
     };
   }, [tweetURLs]);
 
   const loadNewTweets = () => {
-    console.log('current index', { currentIndex });
     get(query(ref(database, 'tweets'), orderByKey(), limitToLast(LOAD_COUNT), endBefore(currentIndex.toString(10)))).then((snapshot) => {
       const result = snapshot.val();
-      console.log('query result', { result });
 
       const urls = [];
       let nextIndex = currentIndex;
@@ -67,12 +60,10 @@ const AnivPage = () => {
       });
 
       setCurrentIndex(nextIndex);
-      console.log('current index', { currentIndex });
       if (nextIndex === 0) {
         setHasMoreTweets(false);
       }
 
-      console.log('tweet urls', { urls });
       const appendURLs = tweetURLs.concat(urls);
       setURLs(appendURLs);
     });
