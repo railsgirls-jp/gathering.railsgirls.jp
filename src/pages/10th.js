@@ -74,7 +74,7 @@ const AnivPage = () => {
       <Seo title="Rails Girls Gathering Japan 2022" />
       <div className={styles.textCenter}>
         <h1>
-          Rails Girls イベント<br />
+          Rails Girls in Japan<br />
           10周年記念
         </h1>
         <h2>
