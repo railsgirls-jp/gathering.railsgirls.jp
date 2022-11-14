@@ -6,7 +6,7 @@ import app from 'gatsby-plugin-firebase-v9.0'
 import { getDatabase, ref, query, get, orderByKey, limitToLast, endBefore } from 'firebase/database'
 import { Link } from "gatsby";
 
-const LOAD_COUNT = 3;
+const LOAD_COUNT = 10;
 const database = getDatabase(app);
 
 const AnivPage = () => {
