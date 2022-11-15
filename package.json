@@ -14,7 +14,7 @@
     "gatsby-plugin-manifest": "^4.21.0",
     "gatsby-plugin-react-helmet": "^5.22.0",
     "gatsby-plugin-robots-txt": "^1.7.1",
-    "gatsby-plugin-sharp": "^4.21.0",
+    "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-plugin-twitter": "^4.24.0",
     "gatsby-source-filesystem": "^4.21.1",
     "gatsby-source-gravatar": "^1.0.2",
