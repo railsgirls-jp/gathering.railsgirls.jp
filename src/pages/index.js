@@ -48,18 +48,14 @@ const IndexPage = () => (
   Keynote
   </h2>
   <ul className={styles.intro}>
-  <ul className={styles.intro}>
     <li className={styles.intro}><Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link></li>
     <li className={styles.intro}><Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link></li>
-  </ul>
   </ul>
 </div>
 <div className={styles.textCenter}>
   <h2>
   Special
   </h2>
-  <p className={styles.intro}>
-  </p>
   <p className={styles.specialDesc}>
   2022年は日本で最初のRails Girlsイベントが開催されて10周年！<br />
   10周年を記念してメッセージを募集しています。<br />
