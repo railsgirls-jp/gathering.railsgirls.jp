@@ -73,6 +73,17 @@ const IndexPage = () => (
 </div>
 <div className={styles.textCenter}>
   <h2>
+  STORE
+  </h2>
+  <p className={styles.specialDesc}>
+  SUZURIでGathering2022と10周年記念のグッズを販売中！<br />
+  </p>
+  <Link to="https://suzuri.jp/railsgirls-jp" target="_blank" className={styles.primaryButtonLarge}
+  data-show-count="false">
+  SUZURIを見る</Link> <br />
+</div>
+<div className={styles.textCenter}>
+  <h2>
   Team
   </h2>
   <ul className={styles.intro}>
