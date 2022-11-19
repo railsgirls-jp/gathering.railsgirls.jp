@@ -73,7 +73,7 @@ const IndexPage = () => (
 </div>
 <div className={styles.textCenter}>
   <h2>
-  STORE
+  Shop
   </h2>
   <p className={styles.specialDesc}>
   SUZURIでGathering2022と10周年記念のグッズを販売中！<br />
