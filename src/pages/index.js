@@ -34,7 +34,7 @@ const IndexPage = () => (
           Online</b>{" "}
         </p>
       <a href="https://railsgirls.jp/code-of-conduct" target="_blank">Code of Conduct</a>
-    </div>
+      </div>
     <div className={styles.news}>
       <p className={styles.textCenter}>
       <b>イベント参加申し込みを開始しました！</b>
@@ -44,54 +44,109 @@ const IndexPage = () => (
     </div>
     </div>
     <div className={styles.textCenter}>
-  <h2>
-  Keynote
-  </h2>
-  <ul className={styles.intro}>
-  <ul className={styles.intro}>
-    <li className={styles.intro}><Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link></li>
-  </ul>
-  </ul>
-</div>
-<div className={styles.textCenter}>
-  <h2>
-  Special
-  </h2>
-  <p className={styles.intro}>
-  </p>
-  <p className={styles.specialDesc}>
-  2022年は日本で最初のRails Girlsイベントが開催されて10周年！<br />
-  10周年を記念してメッセージを募集しています。<br />
-  Rails Girlsの思い出・意気込み（野望）・期待など、
-  <b>#rgjp10th</b>をつけてツイートしてくださいね！<br />
-  </p>
-
-  <Link to="https://twitter.com/intent/tweet?hashtags=rgjp10th" target="_blank" className={styles.primaryButtonLarge}
-  data-show-count="false">
-  ツイートする</Link> <br />
-
-  <Link to="/10th" className={styles.primaryButtonLarge}
-        data-show-count="false">
-    特設ページを見る</Link>
-</div>
-<div className={styles.textCenter}>
-  <h2>
-  Team
-  </h2>
-  <ul className={styles.intro}>
-    <li className={styles.intro}><Link to="https://twitter.com/emorima" target="blank">emorima</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/co_bachie" target="blank">cobachie</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/yadaita" target="blank">yadaita</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/siroemk" target="blank">siroemk</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/thatblue_plus" target="blank">thatblue</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/ai_24_ai" target="blank">ai-24</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/Saki_ht3150" target="blank">Saki</Link></li>
-    <li className={styles.intro}><Link to="https://twitter.com/atttsumi" target="blank">attsumi</Link></li>
-    <li className={styles.intro}><Link to="https://railsgirls.jp/about" target="blank">Rails Girls Japan</Link></li>
-  </ul>
-</div>
-</Layout>
+      <h2>
+      Keynote
+      </h2>
+      <ul className={styles.intro}>
+        <li className={styles.intro}><Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link></li>
+      </ul>
+    </div>
+    <div className={styles.textCenter}>
+      <h2>
+      Timetable
+      </h2>
+      <div className={styles.textCenter}>
+        <table className={styles.timeTable}>
+         <tr>
+          <th>Time</th>
+          <th>Description</th>
+          </tr>
+         <tr>
+          <td>12:55</td>
+          <td>開場</td>
+         </tr>
+         <tr>
+          <td>13:00-13:10</td>
+          <td>オープニング</td>
+         </tr>
+         <tr>
+          <td>13:10-13:20</td>
+          <td>スポンサーセッション1<br />
+            株式会社クラッソーネ</td>
+         </tr>
+         <tr>
+          <td>13:20-13:50</td>
+          <td>キーノート<br />
+            タイトル<br />
+            大倉 雅史</td>
+         </tr>
+         <tr>
+          <td>13:50-14:20</td>
+          <td>Lightning Talks<br />
+            	『エンジニアになるきっかけ、Rails Girls!!』 浅海 舞さん<br />
+              『Rubyコミュニティに参加したら世界が広がった話』 小口 遥さん<br />
+              『エンジニアになるきっかけ、Rails Girls!!』 浅海 舞さん<br />
+              『Rubyコミュニティに参加したら世界が広がった話』 小口 遥さん<br />
+              『エンジニアになるきっかけ、Rails Girls!!』 浅海 舞さん<br /></td>
+         </tr>
+         <tr>
+          <td>13:50-14:20</td>
+          <td>休憩</td>
+         </tr>
+         <tr>
+          <td>13:50-14:20</td>
+          <td>休憩</td>
+         </tr>
+         <tr>
+          <td>13:50-14:20</td>
+          <td>Lightning Talks<br />
+             『エンジニアになるきっかけ、Rails Girls!!』 浅海 舞さん<br />
+              『Rubyコミュニティに参加したら世界が広がった話』 小口 遥さん<br />
+              『エンジニアになるきっかけ、Rails Girls!!』 浅海 舞さん<br />
+              『Rubyコミュニティに参加したら世界が広がった話』 小口 遥さん<br />
+              『エンジニアになるきっかけ、Rails Girls!!』 浅海 舞さん<br /></td>
+         </tr>
+        </table>
+        <p className={styles.tableDesc}>
+        ※ スケジュールは変更になる可能性があります。<br />
+        ※ 本編終了後には懇親会も予定していますので、ご都合のつく方はぜひご参加ください。詳細は決まり次第ご案内いたします。<br />
+        </p>
+      </div>
+    </div>
+    <div className={styles.textCenter}>
+      <h2>
+      Special
+      </h2>
+      <p className={styles.specialDesc}>
+        2022年は日本で最初のRails Girlsイベントが開催されて10周年！<br />
+        10周年を記念してメッセージを募集しています。<br />
+        Rails Girlsの思い出・意気込み（野望）・期待など、
+        <b>#rgjp10th</b>をつけてツイートしてくださいね！<br />
+      </p>
+      <Link to="https://twitter.com/intent/tweet?hashtags=rgjp10th" target="_blank" className={styles.primaryButtonLarge}
+      data-show-count="false">
+      ツイートする</Link> <br />
+      <Link to="/10th" className={styles.primaryButtonLarge} data-show-count="false">
+      特設ページを見る</Link>
+    </div>
+    <div className={styles.textCenter}>
+      <h2>
+      Team
+      </h2>
+      <ul className={styles.intro}>
+        <li className={styles.intro}><Link to="https://twitter.com/emorima" target="blank">emorima</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/co_bachie" target="blank">cobachie</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/yadaita" target="blank">yadaita</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/siroemk" target="blank">siroemk</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/thatblue_plus" target="blank">thatblue</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/ai_24_ai" target="blank">ai-24</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/Saki_ht3150" target="blank">Saki</Link></li>
+        <li className={styles.intro}><Link to="https://twitter.com/atttsumi" target="blank">attsumi</Link></li>
+        <li className={styles.intro}><Link to="https://railsgirls.jp/about" target="blank">Rails Girls Japan</Link></li>
+      </ul>
+    </div>
+  </Layout>
 )
 
 /**

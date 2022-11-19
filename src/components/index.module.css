@@ -5,10 +5,8 @@
   --w: 280px;
   --n: 2;
   gap: var(--size-gap);
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
-  );
+  grid-template-columns: repeat(auto-fit,
+    minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr));
   margin-bottom: var(--size-gap);
   margin-top: var(--size-gap);
 }
@@ -84,7 +82,7 @@
 .primaryButtonLarge:hover {
   background-color: #fff;
   border-color: #59b1eb;
-  background-color: var(--color-text);
+  background-color: #001858;
 }
 
 .tweet {
@@ -92,21 +90,66 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 720px){
+.timeTable {
+  text-align: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 0 80px;
+  margin: 0 auto;
+  width: calc(100% - 160px);
+}
+
+.timeTable tr {
+  border-top: solid 1px var(--color-text);
+}
+
+.timeTable th {
+  padding: 10px;
+  background-color: var(--color-text);
+  color: #fff;
+}
+
+.timeTable td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.tableDesc {
+  text-align: left;
+  font-size: 0.875rem;
+  width: calc(100% - 160px);
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 720px) {
   .intro {
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
   }
+
   .intro li {
     margin-bottom: 1.2rem;
   }
+
   .primaryButtonLarge {
     width: 100%;
     height: 60px;
     line-height: 60px;
   }
+
   .specialDesc {
     text-align: left;
     margin-top: 1rem;
+  }
+
+  .timeTable {
+    padding: 0;
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .tableDesc {
+    width: 100%;
+    margin-top: 24px;
   }
 }
