@@ -56,7 +56,6 @@ const IndexPage = () => (
     <h2>
     Timetable
     </h2>
-    <div className={styles.textCenter}>
       <table className={styles.timeTable}>
        <tr>
         <th>Time</th>
@@ -155,8 +154,7 @@ const IndexPage = () => (
         <li className={styles.intro}><Link to="https://railsgirls.jp/about" target="blank">Rails Girls Japan</Link></li>
       </ul>
     </div>
-  </div>
-</Layout>
+  </Layout>
 )
 /**
  * Head export to define metadata for the page
