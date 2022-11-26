@@ -109,7 +109,7 @@ const IndexPage = () => (
             <Link to="https://twitter.com/thatblue_plus" target="blank">今野 夕貴</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>なんで女性エンジニアが必要なのか(仮)</span><br />
+            <span>Rails Girls から始めるエンジニアリングの世界</span><br />
             <Link to="https://twitter.com/hsbt" target="blank">Hiroshi SHIBATA</Link>
           </div>
         </td>
