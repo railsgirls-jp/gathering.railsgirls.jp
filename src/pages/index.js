@@ -78,7 +78,7 @@ const IndexPage = () => (
         <td>13:15-13:45</td>
         <td>
           キーノート1<br />
-          <Link to="https://twitter.com/okuramasafumi" target="blank">大倉雅史</Link>
+          <Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link>
         </td>
        </tr>
        <tr>
