@@ -90,7 +90,7 @@ const IndexPage = () => (
         <td>Lightning Talks<br />
           <div class={styles.lightningTalk}>
             <span>コードを書くことが怖かった自分が本気でプログラミングを勉強して変わったこと</span><br />
-            <Link to="https://twitter.com/maimux2" target="blank">牟田 真以</Link>
+            <Link to="https://twitter.com/maimux2x" target="blank">牟田 真以</Link>
           </div>
           <div class={styles.lightningTalk}>
             <span>異業種転職するときに女性として心配に感じていたこと</span><br />
