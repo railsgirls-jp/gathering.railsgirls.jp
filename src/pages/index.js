@@ -76,7 +76,10 @@ const IndexPage = () => (
        </tr>
        <tr>
         <td>13:15-13:45</td>
-        <td>キーノート1<br /></td>
+        <td>
+          キーノート1<br />
+          <Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link>
+        </td>
        </tr>
        <tr>
         <td>13:45-13:55</td>
@@ -84,7 +87,32 @@ const IndexPage = () => (
        </tr>
        <tr>
         <td>13:55-14:30</td>
-        <td>Lightning Talks<br /></td>
+        <td>Lightning Talks<br />
+          <div class={styles.lightningTalk}>
+            <span>コードを書くことが怖かった自分が本気でプログラミングを勉強して変わったこと</span><br />
+            <Link to="https://twitter.com/maimux2" target="blank">牟田 真以</Link>
+          </div>
+          <div class={styles.lightningTalk}>
+            <span>異業種転職するときに女性として心配に感じていたこと</span><br />
+            <Link to="https://twitter.com/haruna_tsujita" target="blank">Tsujita Haruna</Link>
+          </div>
+          <div class={styles.lightningTalk}>
+            <span>デザイナーなりの Rails Girls(仮)</span><br />
+            <Link to="https://twitter.com/murokaco" target="blank">室 和子</Link>
+          </div>
+          <div class={styles.lightningTalk}>
+            <span>コロナ禍でRails Girls開催（仮）</span><br />
+            <Link to="https://twitter.com/emorima" target="blank">江森 真由美</Link>
+          </div>
+          <div class={styles.lightningTalk}>
+            <span>競技プログラミングへのお誘い～私と競プロ友達になってください</span><br />
+            <Link to="https://twitter.com/thatblue_plus" target="blank">今野 夕貴</Link>
+          </div>
+          <div class={styles.lightningTalk}>
+            <span>Rails Girls から始めるエンジニアリングの世界</span><br />
+            <Link to="https://twitter.com/hsbt" target="blank">Hiroshi SHIBATA</Link>
+          </div>
+        </td>
        </tr>
        <tr>
         <td>14:30-14:45</td>
@@ -97,7 +125,10 @@ const IndexPage = () => (
        </tr>
        <tr>
         <td>14:50-15:20</td>
-        <td>キーノート2<br /></td>
+        <td>
+          キーノート2<br />
+          <Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link>
+        </td>
        </tr>
        <tr>
         <td>15:20-15:30</td>

@@ -114,6 +114,11 @@
   vertical-align: top;
 }
 
+.timeTable td .lightningTalk {
+  font-size: 0.875rem;
+  padding-top: 0.75rem;
+}
+
 .tableDesc {
   text-align: left;
   font-size: 0.875rem;
