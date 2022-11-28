@@ -142,12 +142,89 @@ const IndexPage = () => (
     </div>
     <div className={styles.textCenter}>
       <h2>
+      Sponsor
+      </h2>
+      <h3>
+      2022年 年間スポンサー
+      </h3>
+      <ul>
+        <li className={styles.sponsorLogo}>
+          <Link to="https://www.st.inc/" target="blank">
+            <StaticImage
+              src="../images/sponsor/stores.png"
+              loading="eager"
+              width={280}
+              quality={95}
+              formats={["auto", "svg","webp", "avif",]}
+              alt="STORES株式会社ロゴ"
+              className="sponsorLogoImage"
+            />
+          </Link>
+          <caption>
+            <Link to="https://www.st.inc/" target="blank">STORES株式会社</Link>
+          </caption>
+        </li>
+        <li className={styles.sponsorLogo}>
+          <Link to="https://corp.timee.co.jp/" target="blank">
+            <StaticImage
+              src="../images/sponsor/timee.png"
+              loading="eager"
+              width={280}
+              quality={95}
+              formats={["auto", "svg","webp", "avif",]}
+              alt="株式会社タイミーロゴ"
+            />
+          </Link>
+          <caption>
+            <Link to="https://corp.timee.co.jp/" target="blank">株式会社タイミー</Link>
+          </caption>
+        </li>
+        <li className={styles.sponsorLogo}>
+          <Link to="https://xalpha.jp/" target="blank">
+            <StaticImage
+              src="../images/sponsor/xalpha.png"
+              loading="eager"
+              width={280}
+              quality={95}
+              formats={["auto", "svg","webp", "avif",]}
+              alt="株式会社ザルファロゴ"
+            />
+          </Link>
+          <caption>
+            <Link to="https://xalpha.jp/" target="blank">株式会社ザルファ</Link>
+          </caption>
+        </li>
+      </ul>
+      <h3>
+      イベントスポンサー
+      </h3>
+      <ul>
+        <li className={styles.sponsorLogo}>
+          <Link to="https://pepabo.com/" target="blank">
+            <StaticImage
+              src="../images/sponsor/pepabo.png"
+              loading="eager"
+              width={280}
+              quality={95}
+              formats={["auto", "svg","webp", "avif",]}
+              alt="GMOペパボ株式会社ロゴ"
+              imgClassName="sponsorLogoImage"
+            />
+          </Link>
+          <caption>
+            <Link to="https://pepabo.com/" target="blank">GMOペパボ株式会社</Link>
+          </caption>
+        </li>
+      </ul>
+    </div>
+    <div className={styles.textCenter}>
+      <h2>
       Special
       </h2>
       <p className={styles.specialDesc}>
       2022年は日本で最初のRails Girlsイベントが開催されて10周年！<br />
       10周年を記念してメッセージを募集しています。<br />
-      Rails Girlsの思い出・意気込み（野望）・期待など、
+      Rails Girlsの思い出・意気込み(野望)・期待など、
       <b>#rgjp10th</b>をつけてツイートしてくださいね！<br />
       </p>
       <Link to="https://twitter.com/intent/tweet?hashtags=rgjp10th" target="_blank" className={styles.primaryButtonLarge}
