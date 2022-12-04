@@ -37,10 +37,8 @@ const IndexPage = () => (
       </div>
     <div className={styles.news}>
       <p className={styles.textCenter}>
-      <b>イベント参加申し込みを開始しました！</b>
+      <b>イベントは終了しました。<br />ご参加いただいた皆様、ありがとうございました！</b>
       </p>
-      <Link to="https://railsgirls-japan.doorkeeper.jp/events/146236" target="_blank" className={styles.primaryButtonLarge}>
-      申し込む（無料）</Link>
     </div>
     </div>
     <div className={styles.textCenter}>
