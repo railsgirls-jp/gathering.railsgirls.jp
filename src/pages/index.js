@@ -76,7 +76,7 @@ const IndexPage = () => (
         <td>13:15-13:45</td>
         <td>
           キーノート1<br />
-          <Link to="https://speakerdeck.com/okuramasafumi/next-decade-of-rails-girls-and-the-community" class={styles.talkTitle}>Next decade of Rails Girls (and the community)</Link><br />
+          <Link to="https://speakerdeck.com/okuramasafumi/next-decade-of-rails-girls-and-the-community" class={styles.talkTitle}>Next decade of Rails Girls! (and the community)</Link><br />
           <Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link>
         </td>
        </tr>
@@ -88,11 +88,11 @@ const IndexPage = () => (
         <td>13:55-14:30</td>
         <td>Lightning Talks<br />
           <div class={styles.lightningTalk}>
-            <Link to="https://speakerdeck.com/maimux2x/railsgirlsgatheringjapan2022" class={styles.talkTitle}>コードを書くことが怖かった自分が本気でプログラミングを勉強して変わったこと</Link><br />
+            <Link to="https://speakerdeck.com/maimux2x/railsgirlsgatheringjapan2022" class={styles.talkTitle}>コードを書くことが怖かった私が本気でプログラミングを勉強して変わったこと</Link><br />
             <Link to="https://twitter.com/maimux2x" target="blank">牟田 真以</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <Link to="https://speakerdeck.com/harunatsujita/rails-girls-2022-lt" target="_blank"  class={styles.talkTitle}>異業種転職するときに女性として心配に感じていたこと</Link><br />
+            <Link to="https://speakerdeck.com/harunatsujita/rails-girls-2022-lt" target="_blank"  class={styles.talkTitle}>異業種転職するときに女性の私が不安に思っていたこと</Link><br />
             <Link to="https://twitter.com/haruna_tsujita" target="blank">Tsujita Haruna</Link>
           </div>
           <div class={styles.lightningTalk}>
@@ -108,7 +108,7 @@ const IndexPage = () => (
             <Link to="https://twitter.com/thatblue_plus" target="blank">今野 夕貴</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <Link to="https://www.slideshare.net/hsbt/railsgirls-254696400" class={styles.talkTitle}>Rails Girls から始めるエンジニアリングの世界</Link><br />
+            <Link to="https://www.slideshare.net/hsbt/railsgirls-254696400" class={styles.talkTitle}>Rails Girls から始めるエンジニアリングはじめの一歩</Link><br />
             <Link to="https://twitter.com/hsbt" target="blank">Hiroshi SHIBATA</Link>
           </div>
         </td>
@@ -127,7 +127,7 @@ const IndexPage = () => (
         <td>
           キーノート2<br />
           <Link to="https://speakerdeck.com/yotii23/10nian-qian-norails-girls-japanmukasibanasitowatasi-number-rggjp-number-rgjp10th" target="_blank"  class={styles.talkTitle}>
-            10年前のRails Girls Japan むかしばなし と わたし<br />
+            10年前のRails Girls Japanむかしばなしとわたし<br />
           </Link>
           <Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link>
         </td>
