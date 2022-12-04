@@ -6,8 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import { Helmet } from "react-helmet"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import { graphql } from "gatsby"
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Rails Girls Gathering Japan 2022" />
@@ -76,6 +75,18 @@ const IndexPage = () => (
         <td>13:15-13:45</td>
         <td>
           キーノート1<br />
+          Next decade of Rails Girls! (and the community)
+          <Link to="https://speakerdeck.com/okuramasafumi/next-decade-of-rails-girls-and-the-community" target="_blank">
+            <StaticImage
+              src="../images/file-lines-solid.svg"
+              loading="eager"
+              width={16}
+              quality={95}
+              formats={["auto", "svg", "webp", "avif",]}
+              alt=""
+              style={{ marginLeft: '0.5em' }}
+            />
+          </Link><br />
           <Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link>
         </td>
        </tr>
@@ -87,27 +98,82 @@ const IndexPage = () => (
         <td>13:55-14:30</td>
         <td>Lightning Talks<br />
           <div class={styles.lightningTalk}>
-            <span>コードを書くことが怖かった自分が本気でプログラミングを勉強して変わったこと</span><br />
-            <Link to="https://twitter.com/maimux2x" target="blank">牟田 真以</Link>
+            コードを書くことが怖かった私が本気でプログラミングを勉強して変わったこと
+            <Link to="https://speakerdeck.com/maimux2x/railsgirlsgatheringjapan2022" target="_blank">
+              <StaticImage
+                src="../images/file-lines-solid.svg"
+                loading="eager"
+                width={16}
+                quality={95}
+                formats={["auto", "svg", "webp", "avif",]}
+                alt=""
+                style={{ marginLeft: '0.5em' }}
+              />
+            </Link><br />
+            <Link to="https://twitter.com/maimux2x" target="_blank">牟田 真以</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>異業種転職するときに女性として心配に感じていたこと</span><br />
+            異業種転職するときに女性の私が不安に思っていたこと
+            <Link to="https://speakerdeck.com/harunatsujita/rails-girls-2022-lt" target="_blank">
+              <StaticImage
+                src="../images/file-lines-solid.svg"
+                loading="eager"
+                width={16}
+                quality={95}
+                formats={["auto", "svg", "webp", "avif",]}
+                alt=""
+                style={{ marginLeft: '0.5em' }}
+              />
+            </Link><br />
             <Link to="https://twitter.com/haruna_tsujita" target="blank">Tsujita Haruna</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>デザイナーなりの Rails Girls(仮)</span><br />
+            デザイナーなりの Rails Girls<br />
             <Link to="https://twitter.com/murokaco" target="blank">室 和子</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>コロナ禍でRails Girls開催（仮）</span><br />
+            コロナ禍でRails Girlsを開催したお話
+            <Link to="https://speakerdeck.com/emorima/koronahuo-derails-girlswokai-cui-sitaohua" target="_blank">
+              <StaticImage
+                src="../images/file-lines-solid.svg"
+                loading="eager"
+                width={16}
+                quality={95}
+                formats={["auto", "svg", "webp", "avif",]}
+                alt=""
+                style={{ marginLeft: '0.5em' }}
+              />
+            </Link><br />
             <Link to="https://twitter.com/emorima" target="blank">江森 真由美</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>競技プログラミングへのお誘い～私と競プロ友達になってください</span><br />
+            競技プログラミングへのお誘い～私と競プロ友達になってください
+            <Link to="https://speakerdeck.com/thatblue/invitation-to-competition-programming" target="_blank">
+              <StaticImage
+                src="../images/file-lines-solid.svg"
+                loading="eager"
+                width={16}
+                quality={95}
+                formats={["auto", "svg", "webp", "avif",]}
+                alt=""
+                style={{ marginLeft: '0.5em' }}
+              />
+            </Link><br />
             <Link to="https://twitter.com/thatblue_plus" target="blank">今野 夕貴</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>Rails Girls から始めるエンジニアリングの世界</span><br />
+            Rails Girls から始めるエンジニアリングはじめの一歩
+            <Link to="https://www.slideshare.net/hsbt/railsgirls-254696400" target="_blank">
+              <StaticImage
+                src="../images/file-lines-solid.svg"
+                loading="eager"
+                width={16}
+                quality={95}
+                formats={["auto", "svg", "webp", "avif",]}
+                alt=""
+                style={{ marginLeft: '0.5em' }}
+              />
+            </Link><br />
             <Link to="https://twitter.com/hsbt" target="blank">Hiroshi SHIBATA</Link>
           </div>
         </td>
@@ -125,6 +191,18 @@ const IndexPage = () => (
         <td>14:50-15:20</td>
         <td>
           キーノート2<br />
+          10年前のRails Girls Japanむかしばなしとわたし
+          <Link to="https://speakerdeck.com/yotii23/10nian-qian-norails-girls-japanmukasibanasitowatasi-number-rggjp-number-rgjp10th" target="_blank">
+            <StaticImage
+              src="../images/file-lines-solid.svg"
+              loading="eager"
+              width={16}
+              quality={95}
+              formats={["auto", "svg", "webp", "avif",]}
+              alt=""
+              style={{ marginLeft: '0.5em' }}
+            />
+          </Link><br />
           <Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link>
         </td>
        </tr>
