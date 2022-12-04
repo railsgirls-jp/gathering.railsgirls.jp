@@ -76,6 +76,7 @@ const IndexPage = () => (
         <td>13:15-13:45</td>
         <td>
           キーノート1<br />
+          <Link to="https://speakerdeck.com/okuramasafumi/next-decade-of-rails-girls-and-the-community" class={styles.talkTitle}>Next decade of Rails Girls (and the community)</Link><br />
           <Link to="https://twitter.com/okuramasafumi" target="blank">大倉 雅史</Link>
         </td>
        </tr>
@@ -87,27 +88,27 @@ const IndexPage = () => (
         <td>13:55-14:30</td>
         <td>Lightning Talks<br />
           <div class={styles.lightningTalk}>
-            <span>コードを書くことが怖かった自分が本気でプログラミングを勉強して変わったこと</span><br />
+            <Link to="https://speakerdeck.com/maimux2x/railsgirlsgatheringjapan2022" class={styles.talkTitle}>コードを書くことが怖かった自分が本気でプログラミングを勉強して変わったこと</Link><br />
             <Link to="https://twitter.com/maimux2x" target="blank">牟田 真以</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>異業種転職するときに女性として心配に感じていたこと</span><br />
+            <Link to="https://speakerdeck.com/harunatsujita/rails-girls-2022-lt" target="_blank"  class={styles.talkTitle}>異業種転職するときに女性として心配に感じていたこと</Link><br />
             <Link to="https://twitter.com/haruna_tsujita" target="blank">Tsujita Haruna</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>デザイナーなりの Rails Girls(仮)</span><br />
+            <span class={styles.talkTitle}>デザイナーなりの Rails Girls</span><br />
             <Link to="https://twitter.com/murokaco" target="blank">室 和子</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>コロナ禍でRails Girls開催（仮）</span><br />
+            <Link to="https://speakerdeck.com/emorima/koronahuo-derails-girlswokai-cui-sitaohua" class={styles.talkTitle}>コロナ禍でRails Girlsを開催したお話</Link><br />
             <Link to="https://twitter.com/emorima" target="blank">江森 真由美</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>競技プログラミングへのお誘い～私と競プロ友達になってください</span><br />
+            <Link to="https://speakerdeck.com/thatblue/invitation-to-competition-programming" class={styles.talkTitle}>競技プログラミングへのお誘い～私と競プロ友達になってください</Link><br />
             <Link to="https://twitter.com/thatblue_plus" target="blank">今野 夕貴</Link>
           </div>
           <div class={styles.lightningTalk}>
-            <span>Rails Girls から始めるエンジニアリングの世界</span><br />
+            <Link to="https://www.slideshare.net/hsbt/railsgirls-254696400" class={styles.talkTitle}>Rails Girls から始めるエンジニアリングの世界</Link><br />
             <Link to="https://twitter.com/hsbt" target="blank">Hiroshi SHIBATA</Link>
           </div>
         </td>
@@ -125,6 +126,9 @@ const IndexPage = () => (
         <td>14:50-15:20</td>
         <td>
           キーノート2<br />
+          <Link to="https://speakerdeck.com/yotii23/10nian-qian-norails-girls-japanmukasibanasitowatasi-number-rggjp-number-rgjp10th" target="_blank"  class={styles.talkTitle}>
+            10年前のRails Girls Japan むかしばなし と わたし<br />
+          </Link>
           <Link to="https://twitter.com/yotii23" target="blank">鳥井 雪</Link>
         </td>
        </tr>
